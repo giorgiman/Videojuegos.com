@@ -205,39 +205,6 @@
         padding: 20px 50px 10px 10px;
         height: 60px;
     }
-    /*Navegación*/
-    /*------------------------------------------------------------*/
-    /*
-nav {
-    float: right;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding-right: 20px;
-}
-
-nav ul li {
-    padding: 10px 0 0 20px;
-    display: inline-flex;
-    line-height: 80px;
-    font-size: 20px;
-    font-family: "Roboto";
-}
-
-nav ul li a {
-    display: block;
-    padding: 0 10px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background: #0b76a6;
-}
-*/
-    /*Menu pequeño*/
     
     .menu2 {
         border-top: solid 0.5px grey;
@@ -478,11 +445,38 @@ nav ul li a:hover {
         padding: 5px;
     }
     
+    #hill {
+        position: absolute;
+        width: 7.1em;
+        height: 7.1em;
+        top: 1.7em;
+        left: 1.7em;
+        background-color: transparent;
+        border-left: .25em solid whitesmoke;
+        transform: rotate(45deg);
+    }
+    /*Cubo bajando*/
+    /*Keyframes Animacion*/
+    /*Movimiento de video*/
+    
+    @keyframes animTexto {
+        from {
+            margin-top: 100%;
+            width: 100%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
     .reproperson video {
         width: 100%;
         margin: 0 auto;
         text-align: center;
         float: left;
+        animation-duration: 2.5s;
+        animation-name: animTexto;
     }
     
     .reproperson nav {
@@ -538,6 +532,34 @@ nav ul li a:hover {
     .video-texto p {
         padding: 20px;
         margin: 0;
+    }
+    
+    .video-audio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    
+    .video-audio h3 {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .video-audio button {
+        width: 15%;
+        height: 50px;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 25%;
+    }
+    
+    .video-audio button:hover {
+        background-color: rgba(0, 0, 0, 0.4);
     }
     
     .audio {
