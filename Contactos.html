@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta name="viewport" content="width=device−width, initial−scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Videojuegos</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.jfif" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
+</head>
+
+<body>
+
+    <header id="main-header">
+
+        <a id="logo-header" href="index.html">
+            <span class="site-name">VIDEOJUEGOS.COM</span>
+            <img class="logo-image" src="assets/img/LOGO4.png" alt="LOGO4.png" />
+        </a>
+        <!-- / #logo-header -->
+
+        <!-- Menu principal-->
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="./index.html"><img src="assets/img/menuicono/hogar.png" alt="LOL" />Inicio</a>
+                </li>
+                <li>
+                    <a href="./Accion.html"><img src="assets/img/menuicono/accion.png" alt="LOL" />Accion</a>
+                </li>
+                <li>
+                    <a href="./Aventura.html"><img src="assets/img/menuicono/aventuras.png" alt="LOL" />Aventura</a>
+                </li>
+                <li>
+                    <a href="./Carreras.html"><img src="assets/img/menuicono/carrera2.png" alt="LOL" />Carreras</a>
+                </li>
+                <li>
+                    <a href="./RPG.html"><img src="assets/img/menuicono/rpg.png" alt="LOL" />RPG</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/blog.png" alt="LOL" />Blogs</a>
+                    <ul>
+                        <li><a href="./ReprodPersonalizado.html">VIDEO&AUDIO</a></li>
+                        <li><a href="./Reproductor.html">REPRODUCTOR</a></li>
+                        <li><a href="./Video.html">YOUTUBE</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/tienda.png" alt="LOL" />Tienda</a>
+                    <ul>
+                        <li><a href="./Contactos.html">CONTACTO</a></li>
+                        <li><a href="./Servicios.html">SERVICIOS</a></li>
+                        <li><a href="./Tienda.html">UBICACIÓN</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- Menu principal-->
+
+        <!-- Menu2 pequeño -->
+        <nav id="menu2">
+            <ul>
+                <li>
+                    <a href="./index.html"><img src="assets/img/menuicono/hogar.png" alt="LOL" />Inicio</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/juegos.png" alt="LOL" />Categorías</a>
+                    <ul>
+
+                        <li>
+                            <a href="./Accion.html"><img src="assets/img/menuicono/accion.png" alt="LOL" />Accion</a>
+                        </li>
+                        <li>
+                            <a href="./Aventura.html"><img src="assets/img/menuicono/aventuras.png" alt="LOL" />Aventura</a>
+                        </li>
+                        <li>
+                            <a href="./Carreras.html"><img src="assets/img/menuicono/carrera2.png" alt="LOL" />Carreras</a>
+                        </li>
+                        <li>
+                            <a href="./RPG.html"><img src="assets/img/menuicono/rpg.png" alt="LOL" />RPG</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/blog.png" alt="LOL" />Blogs</a>
+                    <ul>
+                        <li><a href="./ReprodPersonalizado.html">REPROD. PERSONALIZADO</a></li>
+                        <li><a href="./Reproductor.html">REPRODUCTOR</a></li>
+                        <li><a href="./Video.html">VIDEO</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/tienda.png" alt="LOL" />Tienda</a>
+                    <ul>
+                        <li><a href="./Contactos.html">CONTACTO</a></li>
+                        <li><a href="./Servicios.html">SERVICIOS</a></li>
+                        <li><a href="./Tienda.html">UBICACIÓN</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- Menu2 pequeño-->
+
+        <!-- / nav -->
+
+
+    </header>
+    <!-- / #main-header -->
+
+
+    <main>
+        <aside class="aside-izquierda">
+            <div class="aside-caja">
+
+                <a href="./Video.html"><img src="assets/img/LOL2.jfif" alt="LOL" /></a>
+                <a href="./Tienda.html"><img src="assets/img/tienda.jpg" alt="tienda" /></a>
+                <a href="./blog.html"><img src="assets/img/blog.jpg" alt="blog" /></a>
+
+            </div>
+        </aside>
+        <!-- Aside-izquierda -->
+
+        <section id="main-content">
+            <h1>Contacto</h1>
+
+            <div class="form">
+                <form action="formulario-contacto.php" method="post">
+                    <fieldset>
+                        <h3>Formulario: </h3>
+
+                        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus />
+                        <input name="email" type="email" placeholder="Correo electrónico" required />
+                        <input name="edad" type="number" placeholder="Edad" required min="18" max="99" />
+                        <input name="email" type="tel" placeholder="Teléfono" required />
+                        <textarea name="consulta" placeholder="¿Cuál es el motivo de tu consulta?" rows="6" required></textarea>
+
+                        <div id="cbform">
+                            <label>Acepta las políticas? </label>
+                            <input type="checkbox" id="cbox1" value="cbox1" required>
+                        </div>
+
+                        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+                    </fieldset>
+                </form>
+
+                <div class="contacto-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum amet iure! Adipisci voluptatibus minima amet maiores modi sequi reprehenderit, laborum, est voluptatum repellat, non voluptatem illo id rem iste. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Quod rerum amet iure! Adipisci voluptatibus minima amet maiores modi sequi reprehenderit, laborum, est voluptatum repellat, non voluptatem illo id rem iste.</p>
+                    <img src="assets/img/IconoUbicacion.jpg" alt="ubicacion">
+                    <h3>Ubicación: Elche, Calle Emilio Sala Hernandez, CP: 03205 </h3>
+                    <img src="assets/img/IconoCorreo.jpg" alt="correo">
+                    <h3>Correo: giovideojuegos@gmail.com</h3>
+                    <img src="assets/img/IconoTelefono.jpg" alt="telefono">
+                    <h3>Teléfono: 722459256 </h3>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- / #main-content -->
+
+        <aside class="aside-derecha">
+            <div class="aside-caja">
+                <a href="#"><img src="assets/img/anuncio.png" alt="LOL" /></a>
+            </div>
+        </aside>
+
+    </main>
+    <footer id="main-footer">
+        <p>&copy; 2021 Copyright Creado con derechos suficientes Para Aprobar - <a href="index.html">(Volver al
+                inicio)</a></p>
+        <h4>Redes sociales</h4>
+        <div class="redes-sociales">
+            <a href="https://es-es.facebook.com"><img src="assets/img/facebook.png" alt="facebook" /></a>
+            <a href="https://twitter.com/?lang=es"><img src="assets/img/twitter.png" alt="twitter" /></a>
+            <a href="https://wa.me/34678567876"><img src="assets/img/whatsapp.png" alt="whatsapp" /></a>
+        </div>
+
+    </footer>
+    <!-- / #main-footer -->
+
+
+</body>
+
+</html>

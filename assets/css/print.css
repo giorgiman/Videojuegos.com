@@ -1,0 +1,25 @@
+header,
+footer {
+    display: none;
+}
+
+#main-footer {
+    display: none;
+}
+
+.aside-izquierda,
+.aside-derecha {
+    display: none;
+}
+
+#main-content>img {
+    max-width: 70%;
+}
+
+.content>img {
+    max-width: 50%;
+}
+
+.blog-content img {
+    max-width: 1000px;
+}
