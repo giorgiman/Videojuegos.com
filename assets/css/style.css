@@ -381,7 +381,7 @@
         color: white;
     }
     
-    #main-footer img {
+    #main-footer .redes-sociales img {
         width: 50px;
         border-radius: 10%;
         padding: 10px 10px 10px 10px;
@@ -390,6 +390,15 @@
     
     #main-footer img:hover {
         background: rgba(0, 0, 0, 1);
+    }
+    
+    .accesibilidad {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .accesibilidad img {
+        width: 120px;
     }
     
     .redes-sociales {
