@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.jfif" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -105,6 +106,47 @@
         </nav>
         <!-- Menu2 pequeño-->
 
+
+        <!--Menu móvil 750px-->
+        <nav id="menu3">
+            <ul>
+                <li>
+                    <a href="./index.html"><img src="assets/img/menuicono/hogar.png" alt="" />Inicio</a>
+                </li>
+                <li>
+                    <a href="./Accion.html"><img src="assets/img/menuicono/accion.png" alt="" />Accion</a>
+                </li>
+                <li>
+                    <a href="./Aventura.html"><img src="assets/img/menuicono/aventuras.png" alt="" />Aventura</a>
+                </li>
+                <li>
+                    <a href="./Carreras.html"><img src="assets/img/menuicono/carrera2.png" alt="" />Carreras</a>
+                </li>
+                <li>
+                    <a href="./RPG.html"><img src="assets/img/menuicono/rpg.png" alt="" />RPG</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/blog.png" alt="" />Blogs</a>
+                    <ul>
+                        <li><a href="./ReprodPersonalizado.html">VIDEO&AUDIO</a></li>
+                        <li><a href="./Reproductor.html">REPRODUCTOR</a></li>
+                        <li><a href="./Video.html">YOUTUBE</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/img/menuicono/tienda.png" alt="" />Tienda</a>
+                    <ul>
+                        <li><a href="./Contactos.html">CONTACTO</a></li>
+                        <li><a href="./Servicios.html">SERVICIOS</a></li>
+                        <li><a href="./Tienda.html">UBICACIÓN</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Menu móvil 750px -->
+
         <!-- / nav -->
 
 
@@ -158,20 +200,20 @@
 
             <div id="nuevo">
                 <h2>RECIENTES</h2>
-                <article class="impar">
+                <article id="articulo1" class="impar">
                     <img src="assets/img/callofduty.jpg" alt="Un hombre con arma apuntando" />
                     <h3>Call of Duty</h3>
                     <p>Call of Duty: Vanguard es un videojuego de disparos en primera persona desarrollado por Sledgehammer Games para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S y Microsoft Windows. Su historia está ambientada en la Segunda
                         Guerra Mundial. Vanguard es la decimoctava entrega en la franquicia de Call of Duty</p>
                 </article>
 
-                <article class="par">
+                <article id="articulo2" class="par">
                     <img src="assets/img/needforspeed.jpg" alt="Un coche" />
                     <h3>Need For Speed</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi aut eaque aspernatur, dolore mollitia expedita. Atque eligendi, voluptate eaque suscipit impedit mollitia aspernatur nulla maxime sed maiores ratione quo!</p>
                 </article>
 
-                <article class="impar">
+                <article id="articulo3" class="impar">
                     <img src="assets/img/assasincreedDVD.jpg" alt="Un hombre enmascarado" />
                     <h3>Assasin Creed</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi aut eaque aspernatur, dolore mollitia expedita. Atque eligendi, voluptate eaque suscipit impedit mollitia aspernatur nulla maxime sed maiores ratione quo!</p>
@@ -179,7 +221,7 @@
 
                 </article>
 
-                <article class="par">
+                <article id="articulo4" class="par">
                     <img src="assets/img/spidermanDVD.jpg" alt="Otro hombre enmascarado" />
                     <h3>Spiderman</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi aut eaque aspernatur, dolore mollitia expedita. Atque eligendi, voluptate eaque suscipit impedit mollitia aspernatur nulla maxime sed maiores ratione quo!</p>
@@ -208,20 +250,30 @@
                         <h4>Cyberpunk</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi aut eaque aspernatur, dolore mollitia expedita. Atque eligendi, voluptate eaque suscipit impedit mollitia aspernatur nulla maxime sed maiores ratione quo!</p>
                     </article>
+
                 </div>
+
             </div>
 
         </section>
         <!-- / #main-content -->
 
-
         <aside class="aside-derecha">
             <div class="aside-caja">
-                <a href="#"><img src="assets/img/anuncio.png" alt="LOL" /></a>
+                <a href="#articulo1"><img src="assets/img/articulo1.png" alt="Ir en el artículo Call of duty" /></a>
+                <a href="#articulo2"><img src="assets/img/articulo2.png" alt="Ir en el artículo Need for speed" /></a>
+                <a href="#articulo3"><img src="assets/img/articulo3.png" alt="Ir en el artículo Assasin creed" /></a>
             </div>
         </aside>
 
+
+
     </main>
+
+    <!-- Botón para subir arriba -->
+    <a id="toTop" href="#"><img src="assets/img/flecha-arriba.png" alt="flecha para volver arriba" /></a>
+
+
     <footer id="main-footer">
         <p>&copy; 2021 Copyright Creado con derechos suficientes Para Aprobar - <a href="index.html">(Volver al
                 inicio)</a></p>
@@ -238,7 +290,7 @@
     </footer>
     <!-- / #main-footer -->
 
-
+    <script src="assets/js/jquerys.js"></script>
 </body>
 
 </html>
